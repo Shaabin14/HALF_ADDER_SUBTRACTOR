@@ -40,9 +40,13 @@ Figure -02 HALF Subtractor
 
 **Truthtable**
 a b sum (a ^ b) carry (a & b) 0 0 0 0 0 1 1 0 1 0 1 0 1 1 0 1 
+
+
 ![de8](https://github.com/user-attachments/assets/08ba03b7-266a-4260-add1-5918551c0d51)
 
 a b difference (a ⊕ b) borrow (~a & b) 0 0 0 0 0 1 1 1 1 0 1 0 1 1 0 0
+
+
 ![de9](https://github.com/user-attachments/assets/ce5d78dc-68b4-42e8-ad85-d4ce8263cec0)
 
 **Procedure**
