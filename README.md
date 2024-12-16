@@ -66,6 +66,24 @@ a b difference (a ⊕ b) borrow (~a & b) 0 0 0 0 0 1 1 1 1 0 1 0 1 1 0 0
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
+half adder
+```
+module halfadder (a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= (a ^ b);
+assign carry= (a & b);
+endmodule
+```
+half subtractor
+```
+module hasub (a,b,diff,borr;
+input a,b;
+output diff,borr;
+assign diff=(a^b);
+assign borr=(`a&b);
+endmodule
+```
 Developed by:SHAABIN R S RegisterNumber:*/24006663
 
 **RTL Schematic**
